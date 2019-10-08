@@ -14,6 +14,7 @@ public interface TAccountTypeCertMapper {
 
     String findById();
 
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(TAccountTypeCert record);

@@ -11,7 +11,7 @@ public interface TAccountTypeCertMapper {
     List<TAccountTypeCert> FindAll(TAccountTypeCertExample example);
     int findall();
     int deleteByExample(TAccountTypeCertExample example);
-
+int zhaomengyang();
     String findById();
 
     int deleteByPrimaryKey(Integer id);

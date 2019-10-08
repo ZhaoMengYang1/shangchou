@@ -7,12 +7,13 @@ import org.apache.ibatis.annotations.Param;
 
 public interface TAccountTypeCertMapper {
     long countByExample(TAccountTypeCertExample example);
-    // 李四
+    int zhangsan();
     List<TAccountTypeCert> FindAll(TAccountTypeCertExample example);
     int findall();
     int deleteByExample(TAccountTypeCertExample example);
 int zhaomengyang();
     String findById();
+
 
     int deleteByPrimaryKey(Integer id);
 

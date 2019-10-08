@@ -9,7 +9,6 @@ public interface TAccountTypeCertMapper {
     long countByExample(TAccountTypeCertExample example);
     // 李四
     List<TAccountTypeCert> FindAll(TAccountTypeCertExample example);
-
     int findall();
     int deleteByExample(TAccountTypeCertExample example);
 

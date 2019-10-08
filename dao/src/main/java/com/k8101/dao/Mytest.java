@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Mytest implements TUserMapper {
     public static void main(String[] args) {
-
+int a;
     }
 
 

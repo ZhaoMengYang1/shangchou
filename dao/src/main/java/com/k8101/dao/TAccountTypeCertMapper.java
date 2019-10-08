@@ -12,7 +12,7 @@ public interface TAccountTypeCertMapper {
     int findall();
     int deleteByExample(TAccountTypeCertExample example);
 
-    String find();
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(TAccountTypeCert record);

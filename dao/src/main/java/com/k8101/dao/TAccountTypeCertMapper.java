@@ -8,6 +8,8 @@ import org.apache.ibatis.annotations.Param;
 public interface TAccountTypeCertMapper {
     long countByExample(TAccountTypeCertExample example);
     // 李四
+    List<TAccountTypeCert> FindAll(TAccountTypeCertExample example);
+
     int deleteByExample(TAccountTypeCertExample example);
 
     int deleteByPrimaryKey(Integer id);
